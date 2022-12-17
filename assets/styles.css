@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+}
+.conatiner{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.8);
+    display: none;
+    z-index: 1;
+}
+
+.container-box{
+    background: #fff;
+    z-index: 20;
+    position: absolute;
+    top: 20%    ;
+    bottom: 20% ;
+    left: 20%   ;
+    right: 20%  ;
+}
+
+#btn{
+    position: absolute;
+    top: 1%;
+    right: 90%;
+    width: 10vw;
+    height: 10%;
+    border: 2px solid blue;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+#btn:hover{
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.show{
+    display: block;
+}
+
+.red{
+    background: red;
+}
+
+#text{
+    font-size: 1.5rem;
+    /* font-weight: 900; */
+    font-family:  sans-serif;
+    letter-spacing: 2px;
+    /* color: rgb(182, 179, 179); */
+    color: #fff;
+    text-shadow: 2px  2px 2px  #000;
+    overflow: hidden;
+}
+.btnContainer{
+    width: 30vw;
+    margin: auto;
+    border: #000;
+    height: 10%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnContainer button{
+    width: 20vh;
+    background: rgb(138, 188, 238);
+    color: #fff;
+    text-shadow: 2px 2px 2px black;
+    letter-spacing: 1px;
+    font-size: 90%;
+    border: 1px solid rgb(175, 108, 108);
+    padding: 2%;
+}
+
+.btnContainer button:hover{
+    cursor: pointer;
+    font-weight: 500;
+    box-shadow: 1px 1px 4px 4px blue;
+}
+
+.input-container{
+    width: 80vw;
+    margin: auto;
+}
+
+#given-text{
+    width: 80%;
+    height: 240px;
+    margin: auto;
+    padding: 1%;
+    background: rgb(139, 203, 242);
+    
+    border: 2px solid rgb(42, 40, 40);
+    overflow: scroll;
+}
+#text-area{
+    width: 80%;
+    margin: 0% 10%;
+    padding: 2px;
+    font-style: 2rem;
+}
+
+.navbar{
+    /* background: rgb(66, 64, 64); */
+    background: rgb(44, 146, 209);
+    color: #fff;
+    margin-bottom: 2%;
+}
+
+.navbar ul li{
+    padding: 20px;
+    font-size: 3rem;
+    text-shadow: 2px 2px 2px #000;
+}
